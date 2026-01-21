@@ -4,7 +4,7 @@ try {
     if(typeof input_p !== "number"){
         throw new Error("Invalid input");
     }
-    if(input_p > 0 && input_p < 100){
+    if(input_p >= 0 && input_p <= 100){
         if(input_p < 50){
             console.log("Grade is F");
         }
